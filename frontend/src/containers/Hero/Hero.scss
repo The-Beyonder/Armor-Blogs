@@ -1,0 +1,48 @@
+.app__hero{
+    width: 100%;
+    background: transparent;
+    margin: 2rem auto;
+    .app__hero-upper{
+        background: url('./../../assets/Blog-hero.jpg') 100%;
+        height:416px;  
+        transform: scale(0.85);
+        border-radius: 12px;
+        background-size: cover;
+        transition: all .3s ease-in-out;
+        // box-shadow: inset -7px -9px 20px  rgba(33, 0, 0, 0.754), inset 7px 9px 24px rgba(151, 91, 91, 0.299),
+        //  7px 9px 10px  rgba(14, 0, 0, 0.754), -7px -9px 10px rgba(58, 54, 54, 0.173);
+        
+        .app__hero-inner{
+            background: linear-gradient(to left, rgb(19, 9, 9) 15%, rgba(255, 240, 240, 0.054));
+            border-radius: 12px;
+            height:416px; 
+        }
+        .app__hero-content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            text-align: center;
+        }
+
+        &:hover{
+            box-shadow: inset -7px -9px 20px  rgba(33, 0, 0, 0.754), inset 7px 9px 24px rgba(151, 91, 91, 0.299),
+         7px 9px 10px  rgba(14, 0, 0, 0.754), -7px -9px 10px rgba(58, 54, 54, 0.173);
+        // box-shadow: 7px 9px 20px rgba(33, 0, 0, 0.754), -7px -9px 24px rgba(154, 6, 6, 0.381);
+        }
+
+        @media screen and (max-width: 768px){
+            background: url('./../../assets/Blog-hero-mobile.jpg') 100%;
+            background-size: cover;
+        }
+    }
+}
+
+// import image from assets
+
+

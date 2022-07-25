@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+:root {
+  --font-base: "DM Sans", sans-serif;
+  --font-style: 'Comfortaa', cursive;
+  --font-style2: 'Montserrat', sans-serif;
+  --primary-color: #ff5a5f;
+  --primary-grad:radial-gradient( #1c1c1c , #141414 );
+  --secondary-color: #f03434;
+  --black-color: #0f0f0f;
+  --p-color: #fff9f6bd;
+  --color-lg-text: #ececec;
+  --color-dark: #060000;
+  --shadow-1: 7px 7px 20px #100c0c , -7px -7px 20px #252629;
+  --shadow-2: inset 12px 12px 15px #100c0c , inset -12px -12px 15px #222325;
+  --inner-shadow: 1px 4px 2px -3px rgb(0, 0, 0) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.226) inset;
+  --inner-shadow2: 1px 4px 2px -3px rgb(17, 6, 6) inset, -1px -3px 3px -2px rgba(189, 19, 19, 0.768) inset;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  /* cursor: none; */
+}

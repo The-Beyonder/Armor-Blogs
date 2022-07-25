@@ -1,0 +1,12 @@
+.app__search{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    width: 100%;
+    background: var(--primary-grad);
+    z-index: 2;
+    // height: 100%;
+    display: grid;
+    column-gap: 50px;
+    padding-bottom: 100% !important;
+}
